@@ -1,0 +1,210 @@
+/* General Reset and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 250, 226);
+    color: #333;
+    line-height: 1.6;
+}
+
+.fotoAna-container {
+    display:flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    min-height: 60vh; 
+    gap: 20px; 
+    padding: 2rem 0;
+}
+
+.fotoAna {
+    flex: 1;
+}
+
+.fotoAna img {
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.text-Anacontent {
+    flex: 1;
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+
+.text-Anacontent h1::before {
+    content: url(https://images.app.goo.gl/ufH8FsSTKZYAAXNh9);
+}
+
+.text-Anacontent h1 {
+    font-size: 2rem;
+    text-align: right;
+    color: #2c3e50;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.buktiViewers {
+    display: grid;
+    place-items: center;
+}
+
+.buktiViewers img {
+    width: 400px;
+    border-radius: 15px;
+}
+
+.video {
+    display: grid;
+    place-items: center;
+}
+
+.video video {
+    width: auto;
+    border-radius: 0%;
+}
+
+
+.lomba {
+    display: grid;
+    place-items: center;   
+}
+
+.lomba img {
+    width: 400px;
+    border-radius: 15px;
+}
+
+aside {
+    text-align: center;
+}
+
+article {
+    text-align: justify;
+}
+
+header {
+    background-color: #3f2626;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:underline;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #5f3e3e;
+    border-radius: 4px;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+}
+
+main img {
+    border-radius: 15px;
+    margin-top: 1rem;
+}
+
+.card-section {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.card h3 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+input[type="submit"] {
+    background-color: rgb(95, 182, 113);
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(71, 169, 91);
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #503c3c;
+    text-align: center;
+}
+
+table th {
+    background-color: #f3ed9c;
+}
+
+footer {
+    background-color: #3f2626;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
