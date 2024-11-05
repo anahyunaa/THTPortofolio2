@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (valid) {
             const purposesText = Array.from(purposes).map(p => p.value).join(", ");
             const genderValue = gender ? gender.value : "";
-            const whatsappMessage = `Hello Ana, my name is ${fullname}.%0AEmail: ${email}%0APhone: ${phoneNumber}%0AGender: ${genderValue}%0AMenu: I want to ${purposesText}`;
+            const whatsappMessage = `Hello Ana, my name is ${fullname}.%0AEmail: ${email}%0APhone: ${phoneNumber}%0AGender: ${genderValue}%0AMenu: ${purposesText}`;
             const whatsappUrl = `https://wa.me/6282146422305?text=${whatsappMessage}`;
             
             window.open(whatsappUrl, '_blank');
